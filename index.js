@@ -3,7 +3,7 @@ require("dotenv").config();
 const bodyParser = require("body-parser");
 const cors = require("cors");
 const app = express();
-
+require("./db/dbConnection");
 const port = 5000;
 
 // middleware
